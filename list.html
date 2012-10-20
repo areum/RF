@@ -14,7 +14,8 @@
 			/* Ext.Loader.setConfig({ enabled: true }); */
 			Ext.application({
 				name: "MyApp",
-			    requires: ['Ext.MessageBox'],
+			    /* requires: ['Ext.MessageBox'], */
+			    requires: ['Ext.List','Ext.MessageBox','Ext.dataview.List'],
 				launch: function() {
 					var list = Ext.create('Ext.List', {
 					    fullscreen: true,
